@@ -36,8 +36,11 @@ body {
 #beschreibung {
 	color: #552B2B;
 	margin-left: 1em;
-	width: 24em;
 	text-align: justify;
+}
+
+#back {
+	margin-left: 1em;
 }
 
 h1,h2 {
