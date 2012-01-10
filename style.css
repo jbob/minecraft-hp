@@ -136,14 +136,31 @@ a {
 	color: #552B2B;
 }
 
+blockquote {
+	border-left: 1px solid #400000;
+	margin: 0.2em;
+	padding: 0.2em;
+}
+
+blockquote:before {
+	content: "»";
+}
+
+blockquote:after {
+	content: "«";
+}
+
 dt {
 	margin-left: 1em;
 	margin-top: 0.8em;
 	font-size: 1.1em;
-	text-decoration: underline;
 }
 
 dd {
 	margin-left: 2.5em;
 	font-size: 1.03em;
+}
+
+img {
+	width: 100%;
 }
