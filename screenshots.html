@@ -10,17 +10,26 @@
 		<link rel="stylesheet" type="text/css" href="style.css" />
 		<script src="http://code.jquery.com/jquery-1.7.1.min.js"
 			type="text/javascript"></script>
+		<script type="text/javascript" src="lb/jquery.lightbox-0.5.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="lb/jquery.lightbox-0.5.css" media="screen" />
 		<script type="text/javascript">
 			$(document).ready(function() {
 				$("#kochmarkus-screenshots").click(function() {
-					$("#kochmarkus-screenshots-content").load("screenshots/kochmarkus/text.html");
+					$("#kochmarkus-screenshots-content").load("screenshots/kochmarkus/text.html",function(){
+						$("#kochmarkus-screenshots-content a").lightBox();
+					});
 				});
 				$("#sonok-screenshots").click(function() {
-					$("#sonok-screenshots-content").load("screenshots/sonok/text.html");
+					$("#sonok-screenshots-content").load("screenshots/sonok/text.html",function(){
+						$("#sonok-screenshots-content a").lightBox();
+					});
 				});
 				$("#thomasba-screenshots").click(function() {
-					$("#thomasba-screenshots-content").load("screenshots/thomasba/text.html");
+					$("#thomasba-screenshots-content").load("screenshots/thomasba/text.html",function(){
+						$("#thomasba-screenshots-content a").lightBox();
+					});
 				});
+				
 			});
 		</script>
 	</head>
