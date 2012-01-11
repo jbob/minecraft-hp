@@ -17,19 +17,15 @@
 				$("#kochmarkus-screenshots").click(function() {
 					$("#kochmarkus-screenshots-content").load("screenshots/kochmarkus/text.html",function(){
 						$("#kochmarkus-screenshots-content a").lightBox();
-					});
-				});
-				$("#sonok-screenshots").click(function() {
-					$("#sonok-screenshots-content").load("screenshots/sonok/text.html",function(){
-						$("#sonok-screenshots-content a").lightBox();
+						$("#kochmarkus-screenshots-first").click();
 					});
 				});
 				$("#thomasba-screenshots").click(function() {
 					$("#thomasba-screenshots-content").load("screenshots/thomasba/text.html",function(){
 						$("#thomasba-screenshots-content a").lightBox();
+						$("#kochmarkus-screenshots-first").click();
 					});
 				});
-				
 			});
 		</script>
 	</head>
