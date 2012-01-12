@@ -115,12 +115,10 @@ th,td {
 
 th {
 	text-align: right;
-	border-right: 1px solid white;
 }
 
 td {
 	text-align: left;
-	border-left: 1px dotted white;
 	font-size: 1.1em;
 }
 
@@ -143,18 +141,10 @@ a {
 	color: #552B2B;
 }
 
-blockquote {
+dd div {
 	border-left: 1px solid #400000;
 	margin: 0.2em;
 	padding: 0.2em;
-}
-
-blockquote:before {
-	content: "»";
-}
-
-blockquote:after {
-	content: "«";
 }
 
 dt {
