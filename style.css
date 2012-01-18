@@ -161,3 +161,17 @@ dd {
 img {
 	width: 100%;
 }
+/* Spielzeit */
+.spielzeit {
+	border-collapse:collapse;
+}
+.spielzeit th {
+	text-align:left;
+	border-bottom:1px solid #666;
+}
+.spielzeit td:last-child {
+	text-align:right;
+}
+.spielzeit td:last-child, .spielzeit th:last-child {
+	border-left:1px solid #666;
+}
